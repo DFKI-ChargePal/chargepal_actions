@@ -1,0 +1,10 @@
+#goal
+string source_station
+string target_station
+---
+#result
+string current_station
+bool station_reached
+---
+#feedback
+string status

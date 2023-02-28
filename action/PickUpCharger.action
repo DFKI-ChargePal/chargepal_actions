@@ -1,0 +1,8 @@
+#goal
+string charger_name
+---
+#result
+bool charger_picked
+---
+#feedback
+string status
