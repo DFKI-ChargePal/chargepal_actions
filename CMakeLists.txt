@@ -71,6 +71,8 @@ add_action_files(
   PlaceCharger.action 
   PlugIn.action 
   PlugOut.action
+  ArriveAtHome.action
+  ChargeBattery.action
 #   Action1.action
 #   Action2.action
 )
