@@ -8,11 +8,12 @@ project(chargepal_actions)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  genmsg
+  actionlib
+  actionlib_msgs
+  message_generation
+  roscpp
   rospy
   std_msgs
-  actionlib_msgs
- 
 )
 
 ## System dependencies are found with CMake's conventions
@@ -73,8 +74,6 @@ add_action_files(
   PlugOut.action
   ArriveAtHome.action
   ChargeBattery.action
-#   Action1.action
-#   Action2.action
 )
 
 ## Generate added messages and services with any dependencies listed here
@@ -84,6 +83,9 @@ generate_messages(
   actionlib_msgs
  )
 
+catkin_package(
+  CATKIN_DEPENDS actionlib_msgs
+)
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
 ################################################
@@ -113,12 +115,7 @@ generate_messages(
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
-#catkin_package(
-#  INCLUDE_DIRS lib lib/er_public_msgs
-#  LIBRARIES chargepal_actions
-#  CATKIN_DEPENDS message_generation rospy std_msgs er_public_msgs message_runtime
-#  DEPENDS system_lib
-#)
+
 
 ###########
 ## Build ##
