@@ -74,6 +74,7 @@ add_action_files(
   PlugOut.action
   ArriveAtHome.action
   ChargeBattery.action
+  CallForHelp.action
 )
 
 ## Generate added messages and services with any dependencies listed here
