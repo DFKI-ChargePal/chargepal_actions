@@ -70,8 +70,10 @@ add_action_files(
   ArriveAtStation.action 
   PickUpCharger.action 
   PlaceCharger.action 
-  PlugIn.action 
+  PlugIn.action
+  PlugInRecovery.action
   PlugOut.action
+  PlugOutRecovery.action
   ArriveAtHome.action
   ChargeBattery.action
   CallForHelp.action
