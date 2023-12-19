@@ -1,0 +1,7 @@
+#goal
+---
+#result
+bool disconnect_from_car
+---
+#feedback
+string status
