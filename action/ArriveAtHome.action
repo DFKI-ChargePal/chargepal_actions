@@ -1,7 +1,9 @@
 #goal
+string target_station
 ---
 #result
-bool home_reached
+string current_station
+bool station_reached
 ---
 #feedback
 string status

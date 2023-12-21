@@ -1,7 +1,6 @@
 <launch>
 	
-	<node pkg="chargepal_actions" type="cp_action_server.py" name="cp_action_server" output="screen">	
-		<param name="sim_flag" value="true" />
-	</node>
+	<node pkg="chargepal_actions" type="cp_action_server.py" name="cp_action_server" output="screen"/>	
+	<param name="sim_flag" value="true" />
 		
 </launch>
