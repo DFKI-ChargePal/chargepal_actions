@@ -3,6 +3,5 @@ string charger_name
 ---
 #result
 bool charger_picked
+string action_status
 ---
-#feedback
-string status

@@ -4,6 +4,6 @@ string target_station
 #result
 string current_station
 bool station_reached
+string action_status
 ---
 #feedback
-string status
