@@ -10,7 +10,7 @@ The chargepal_actions package contains all the action servers affliated with the
 |disconnect_plug_from_car|Plugout from adapter station|
 |plugin|Plugin to charge cart|
 |plugout|Plugout from charging the cart|
-|call_for_help|Call technician for assitance|
+|call_for_help|Call technician for assistance|
 
 **MiR based actions**
 - Missions like MT_<station_name>, Pickup_Cart, Place_Cart are created inside Chargepal missions list inside MiR. 
