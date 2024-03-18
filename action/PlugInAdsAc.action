@@ -1,7 +1,7 @@
 #goal
 ---
 #result
-bool plug_in
+bool success
 ---
 #feedback
 string status

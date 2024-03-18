@@ -70,12 +70,14 @@ add_action_files(
   ArriveAtStation.action 
   PickUpCharger.action 
   PlaceCharger.action 
-  PlugIn.action
-  PlugOut.action
+  PlugInAdsAc.action
+  PlugInAdsDc.action
+  PlugInBcsAc.action
+  PlugOutAdsAc.action
+  PlugOutAdsDc.action
+  PlugOutBcs.Ac.action
   ArriveAtHome.action
   CallForHelp.action
-  ConnectPlugToCar.action
-  DisconnectPlugFromCar.action
 )
 
 ## Generate added messages and services with any dependencies listed here
