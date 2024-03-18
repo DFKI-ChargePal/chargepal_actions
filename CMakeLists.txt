@@ -75,7 +75,7 @@ add_action_files(
   PlugInBcsAc.action
   PlugOutAdsAc.action
   PlugOutAdsDc.action
-  PlugOutBcs.Ac.action
+  PlugOutBcsAc.action
   ArriveAtHome.action
   CallForHelp.action
 )
