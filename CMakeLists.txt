@@ -78,6 +78,8 @@ add_action_files(
   PlugOutBcsAc.action
   ArriveAtHome.action
   CallForHelp.action
+  FreeDriveArm.action
+  MoveHomeArm.action
 )
 
 ## Generate added messages and services with any dependencies listed here
