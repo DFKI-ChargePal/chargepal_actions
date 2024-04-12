@@ -67,7 +67,13 @@ find_package(catkin REQUIRED COMPONENTS
 add_action_files(
   DIRECTORY action
   FILES
+  ArriveAtHome.action
   ArriveAtStation.action 
+  CallForHelp.action
+  FreeDriveArm.action
+  MarkerSocketCalibAds.action
+  MarkerSocketCalibBcs.action
+  MoveHomeArm.action
   PickUpCharger.action 
   PlaceCharger.action 
   PlugInAdsAc.action
@@ -76,8 +82,6 @@ add_action_files(
   PlugOutAdsAc.action
   PlugOutAdsDc.action
   PlugOutBcsAc.action
-  ArriveAtHome.action
-  CallForHelp.action
 )
 
 ## Generate added messages and services with any dependencies listed here
