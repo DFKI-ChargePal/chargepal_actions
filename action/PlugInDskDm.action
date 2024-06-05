@@ -1,0 +1,9 @@
+### Action definition plug-in process desk demo ###
+
+#goal
+---
+#result
+bool success
+---
+#feedback
+string status
