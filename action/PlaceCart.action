@@ -1,8 +1,8 @@
 #goal
-string charger_name
+string cart_name
 ---
 #result
-bool charger_placed
+bool cart_placed
 string action_status
 ---
 #feedback

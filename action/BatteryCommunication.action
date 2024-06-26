@@ -1,0 +1,9 @@
+#goal
+string cart_name
+string request_name
+---
+#result
+bool success
+---
+#feedback
+string status

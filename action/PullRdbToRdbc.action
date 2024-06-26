@@ -1,0 +1,8 @@
+#goal
+TableRow[] parameters 
+---
+#result
+bool pull_success
+---
+#feedback
+string ongoing_state

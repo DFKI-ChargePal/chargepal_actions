@@ -1,5 +1,6 @@
 #goal
-
+string robot
+string context
 ---
 #result
 

@@ -50,11 +50,11 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
+add_message_files(
+  FILES
+  TableRow.msg
 #   Message2.msg
-# )
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -74,14 +74,17 @@ add_action_files(
   MarkerSocketCalibAds.action
   MarkerSocketCalibBcs.action
   MoveHomeArm.action
-  PickUpCharger.action 
-  PlaceCharger.action 
+  PickUpCart.action 
+  PlaceCart.action 
   PlugInAdsAc.action
   PlugInAdsDc.action
   PlugInBcsAc.action
   PlugOutAdsAc.action
   PlugOutAdsDc.action
   PlugOutBcsAc.action
+  PushRdbcToLdb.action
+  BatteryCommunication.action
+  PullRdbToRdbc.action
 )
 
 ## Generate added messages and services with any dependencies listed here
