@@ -17,6 +17,9 @@ The chargepal_actions package contains all the action servers affliated with the
 |plug_out_ads_ac|Plug-out from the adapter station using the AC female plug|
 |plug_out_ads_dc|Plug-out from the adapter station using the DC female plug|
 |plug_out_bcs_ac|Plug-out from the battery charging station using the AC male plug|
+|db/push_rdbc_to_ldb|Push robot database copy to local database|
+|db/pull_rdb_to_rdbc|Pull certain row values from robot database to robot database copy|
+
 
 **MiR based actions**
 - Missions like MT_<station_name>, Pickup_Cart, Place_Cart are created inside Chargepal missions list inside MiR. 
