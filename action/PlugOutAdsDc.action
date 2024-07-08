@@ -1,6 +1,7 @@
 #goal
 ---
 #result
+int8 outcome
 bool success
 ---
 #feedback
