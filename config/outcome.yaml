@@ -1,6 +1,0 @@
-# Outcome definition of the plug-in and the plug-out actions
-
-ERROR: -1
-COMPLETION: 0
-INCOMPLETION: 1
-USER_STOP: 2
