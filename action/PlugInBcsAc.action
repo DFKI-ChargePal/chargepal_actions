@@ -1,8 +1,9 @@
 #goal
 ---
 #result
-int8 outcome
 bool success
+bool arm_free
+int8 error_code
 ---
 #feedback
 string status
