@@ -83,6 +83,7 @@ add_action_files(
   PlugOutAdsAc.action
   PlugOutAdsDc.action
   PlugOutBcsAc.action
+  PlugOutDskDm.action
   PushRdbcToLdb.action
   BatteryCommunication.action
   PullRdbToRdbc.action
