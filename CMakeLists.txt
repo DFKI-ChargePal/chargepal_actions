@@ -79,6 +79,7 @@ add_action_files(
   PlugInAdsAc.action
   PlugInAdsDc.action
   PlugInBcsAc.action
+  PlugInDskDm.action
   PlugOutAdsAc.action
   PlugOutAdsDc.action
   PlugOutBcsAc.action
