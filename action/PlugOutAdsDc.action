@@ -1,5 +1,6 @@
 #goal
-string battery_id
+string cart_name
+string station_name
 ---
 #result
 bool success
